@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slap.js</title>
+       <style type="text/css">
+       body,html{
+       	height: 100%;
+       }
+       .content{
+       	width: 600px;
+       	margin: 0 auto;
+       	padding-top: 40px;
+       }
+		.slapMe{
+			
+			display: block;
+			margin: auto;
+		}
+		h1{
+			text-align: center;
+			font-family: sans-serif;
+			margin-top: 40px;
+		}
+       </style>
+    </head>
+    <body>
+    <div class="content">
+    	 <img src="slap_js.png" class="slapMe">
+    	 <h1>Slap me!</h1>
+    </div>
+       
+       
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" ></script>
+
+        
+        <script src="../dist/jquery.slap.min.js" type="text/javascript" ></script>
+         <script>
+        $(document).ready(function(){
+        	$(".slapMe").slap( {
+        		pathToSlap: "../dist/",
+                slapDuration: 300,
+                slapIntensity: 1        	} );
+        })
+        </script>
+    </body>
+</html>

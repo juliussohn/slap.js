@@ -5,7 +5,7 @@
     $.fn.slap = function (options) {
         
         var settings = $.extend({
-            pathToSlap: "dist/",
+            pathToSlap: "slap.js/dist/",
             slapDuration: 200,
             slapIntensity: 1,
             slapEasing: 'swing'
