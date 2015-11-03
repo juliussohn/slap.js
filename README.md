@@ -20,7 +20,7 @@ $(document).ready(function(){
 ##Options
 | Name          | Description   | Type | Default|
 | ------------- | ------------- |---------|----|
-| pathToSlap    | The relative path to the plugin file and MP3 files  | String | "/dist"  |
+| pathToSlap    | The relative path to the plugin file and MP3 files  | String | "slap.js/dist/"  |
 | slapDuration  | The duration of the slap animation  | Integer | 200 |
 | slapIntensity | How much should the object be slapped? ( 1 = 360°) | Float | 1 |
 | slapEasing    | The easing for the slap animation. For more information read the [jQueryUI easing page](https://jqueryui.com/easing/) | String | "swing" |
