@@ -1,0 +1,24 @@
+{
+  "name": "slap.js",
+  "authors": [
+    "Julius Sohn <juliussohn@icloud.com>"
+  ],
+  "description": "Give your website a slap.",
+  "main": "dist/jquery.slap.min.js",
+  "moduleType": [],
+  "keywords": [
+    "slap",
+    "jquery",
+    "plugin",
+    "hit"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
