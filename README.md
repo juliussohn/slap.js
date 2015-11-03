@@ -1,5 +1,6 @@
 # slap.js
 Give your website a slap.
+[View the demo](http://juliussohn.github.io/slap.js/example/)
 
 ##How to use
 ###Include the script
