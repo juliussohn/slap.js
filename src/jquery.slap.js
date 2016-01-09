@@ -17,6 +17,7 @@
                 'cursor': 'pointer',
                 'transition': 'transform '+settings.slapDuration+'ms ',
                 borderSpacing: 0,
+                'transition-timing-function' : 'cubic-bezier(0.950, 0.050, 0.795, 0.035)'
             });
             if (self.css("display") != "block" && self.css("display") != "inline-block") {
                 self.css("display", "inline-block");
